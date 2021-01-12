@@ -1,0 +1,36 @@
+{
+  "name": "celerity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bytenode": "^1.1.7",
+    "electron-auth0-login": "^1.4.1",
+    "electron-packager": "^15.2.0",
+    "jquery": "^3.5.1",
+    "jwt-decode": "^3.1.2",
+    "keytar": "^7.2.0",
+    "mysql": "^2.18.1",
+    "puppeteer-extra": "^3.1.15",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  },
+  "build": {
+    "extraResources": "node_modules",
+    "files": [
+      "!node_modules",
+      "!*"
+    ]
+  },
+  "keywords": [],
+  "author": "Lux#6129",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.0"
+  },
+  "postinstall": "electron-builder install-app-deps"
+}

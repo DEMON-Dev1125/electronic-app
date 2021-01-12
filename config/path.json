@@ -1,0 +1,23 @@
+{
+    "appIcon":"./assets/img/rdb.png",
+    "views":{
+        "config":"./renderers/config.html",
+        "dashboard":"./renderers/dashboard.html",
+        "settings":"./renderers/settings.html",
+        "home":"./renderers/home.html",
+
+        "log":"./renderers/log.html",
+        "login":"./renderers/login.html",
+        "oeuvre":"./renderers/oeuvre.html",
+        "directories":"./renderers/directories.html"
+    },
+    "config":{
+        "userData":"./config/userData.json",
+        "emptyOeuvre":"./config/emptyOeuvre.json",
+        "emptyConfig":"./config/emptyConfig.json"
+    },
+    "driver":{
+        "chromedriver":"./driver/chromedriver.js",
+        "chromedriverBin":"./driver/chromedriver.jsc"
+    }
+}
